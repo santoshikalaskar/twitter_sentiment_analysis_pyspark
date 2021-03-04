@@ -8,10 +8,6 @@ import os
 import environ
 from decouple import config
 
-consumer_key = os.environ.get('CONSUMER_KEY')
-consumer_secret = os.environ.get('CONSUMER_SECRET')
-access_token = os.environ.get('ACCESS_TOKEN')
-access_secret = os.environ.get('ACCESS_SECRET')
 
 consumer_key = config('CONSUMER_KEY')
 consumer_secret = config('CONSUMER_SECRET')
