@@ -4,11 +4,19 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 import socket
 import json
+import os
+import environ
+from decouple import config
 
-consumer_key='G9H8AwQRbrKShZbK6Q29fC4hb'
-consumer_secret='L4r36DhGsbl2H5rZ5u7JoGuEjlfGLWxPutwib2SPOd7D42K78t'
-access_token ='3014372628-D4TGlcAwoqmODLl3iKgQduixZMyOIuF0Wf73Bm2'
-access_secret='lhYA0n2I3TTdXOmg6j967v6pJ3bWZ2Ba08Sx4fKweGcBt'
+consumer_key = os.environ.get('CONSUMER_KEY')
+consumer_secret = os.environ.get('CONSUMER_SECRET')
+access_token = os.environ.get('ACCESS_TOKEN')
+access_secret = os.environ.get('ACCESS_SECRET')
+
+consumer_key = config('CONSUMER_KEY')
+consumer_secret = config('CONSUMER_SECRET')
+access_token = config('ACCESS_TOKEN')
+access_secret = config('ACCESS_SECRET')
 
 class TweetsListener(StreamListener):
   # tweet object listens for the tweets
