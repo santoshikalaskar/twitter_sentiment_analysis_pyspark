@@ -23,4 +23,18 @@ In this part, we use our developer credentials to authenticate and connect to th
 In this part, we receive the data from the TCP socket and preprocess it with the pyspark library, which is Python's API for Spark. Then, we apply sentiment analysis using textblob, which is Python's library for processing textual data. After sentiment analysis, we save the tweet and the sentiment analysis scores in a parquet file, which is a data storage format.
 
 
+## Output Steps to run
 
+### Step-1
+
+<img align="center"  width="90%" src="https://github.com/stamatelou/twitter_sentiment_analysis/blob/master/1.png">
+
+
+### Step-2
+
+<img align="center"  width="90%" src="https://github.com/stamatelou/twitter_sentiment_analysis/blob/master/2.png">
+
+
+### Step-3
+
+<img align="center"  width="90%" src="https://github.com/stamatelou/twitter_sentiment_analysis/blob/master/3.png">
