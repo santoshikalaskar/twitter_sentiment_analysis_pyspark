@@ -27,14 +27,14 @@ In this part, we receive the data from the TCP socket and preprocess it with the
 
 ### Step-1
 
-<img align="center"  width="90%" src="https://github.com/stamatelou/twitter_sentiment_analysis/blob/master/1.png">
+<img align="center"  width="90%" src="https://github.com/santoshikalaskar/twitter_sentiment_analysis_pyspark/blob/master/1.png">
 
 
 ### Step-2
 
-<img align="center"  width="90%" src="https://github.com/stamatelou/twitter_sentiment_analysis/blob/master/2.png">
+<img align="center"  width="90%" src="https://github.com/santoshikalaskar/twitter_sentiment_analysis_pyspark/blob/master/2.png">
 
 
 ### Step-3
 
-<img align="center"  width="90%" src="https://github.com/stamatelou/twitter_sentiment_analysis/blob/master/3.png">
+<img align="center"  width="90%" src="https://github.com/santoshikalaskar/twitter_sentiment_analysis_pyspark/blob/master/3.png">
