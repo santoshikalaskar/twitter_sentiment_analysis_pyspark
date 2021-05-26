@@ -38,7 +38,7 @@ if __name__ == "__main__":
     spark = SparkSession.builder.appName("TwitterSentimentAnalysis").getOrCreate()
 
     # read the tweet data from socket
-    lines = spark.readStream.format("socket").option("host", "127.0.0.1").option("port", 9999).load()
+    lines = spark.readStream.format("socket").option("host", "127.0.0.1").option("port", 9998).load()
     # Preprocess the data
     words = preprocessing(lines)
     # text classification to define polarity and subjectivity

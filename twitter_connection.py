@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # server (local machine) creates listening socket
     s = socket.socket()
     host = "127.0.0.1"    
-    port = 9999
+    port = 9998
     s.bind((host, port))
     print('socket is ready')
     # server (local machine) listens for connections
